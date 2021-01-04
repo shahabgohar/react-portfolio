@@ -1,0 +1,8 @@
+.MainDisplay{
+    height: 70vh;
+}
+@media only screen and (max-width: 730px){
+    .MainDisplay{
+        height: 50vh;
+    }
+}

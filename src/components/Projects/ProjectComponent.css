@@ -1,0 +1,21 @@
+.ProjectComponent{
+    height: 90vh;
+}
+.ProjectComponent-categories{
+    height: 50px;
+}
+.ProjectComponent-listing{
+    overflow: auto;
+    white-space: nowrap;
+}
+@media only screen and (max-width:640px){
+    .ProjectComponent-categories{
+        height: 50px;
+        width:100%;
+    }
+    .ProjectComponent-listing{
+        overflow: auto;
+        white-space: nowrap;
+        width:100%;
+    }
+}

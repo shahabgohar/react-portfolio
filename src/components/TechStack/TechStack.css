@@ -1,0 +1,104 @@
+.TechStack{
+    height: 80vh;
+}
+.pic-container-start{
+    align-items: flex-start;
+}
+.pic-container-end{
+    align-items: flex-end;
+}
+.image-tech-stack{
+    width: 700px;
+    height: 900px;
+    object-fit: contain;
+    animation: imageStack 2s infinite linear;
+
+}
+@keyframes imageStack{
+    0%{
+        transform: translateY(20px)
+    }
+    50%{
+        transform: translateY(-20px)
+    }
+    100%{
+        transform: translateY(20px)
+    }
+}
+.TechStack-Image{
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+    margin: 15px;
+    cursor: pointer;
+}
+.TechStack-Image:hover{
+    animation: ImageSliderUpDown 2s infinite linear;
+}
+@media only screen and (max-width:1200px){
+    .TechStack-Image{
+        width: 100px;
+        height: 100px;
+        object-fit: contain;
+        margin: 15px;
+        cursor: pointer;
+    }
+}
+@media only screen and (max-width: 1300px){
+    .image-tech-stack{
+        width: 500px;
+        height: 500px;
+        object-fit: contain;
+        animation: imageStack 2s infinite linear;
+        opacity: 0.5;
+
+    }
+}
+@media only screen and (max-width: 775px){
+    .image-tech-stack{
+        width: 400px;
+        height: 400px;
+        object-fit: contain;
+        animation: imageStack 2s infinite linear;
+        opacity: 0.5;
+
+    }
+    .pic-container-start{
+        align-items: center;
+    }
+    .pic-container-end{
+        align-items: center;
+    }
+}
+@media only screen and (max-width: 500px){
+    .image-tech-stack{
+        width: 300px;
+        height: 300px;
+        object-fit: contain;
+        animation: imageStack 2s infinite linear;
+        opacity: 0.5;
+
+    }
+}
+@media only screen and (max-width: 340px){
+    .image-tech-stack{
+        width: 200px;
+        height: 200px;
+        object-fit: contain;
+        animation: imageStack 2s infinite linear;
+        opacity: 0.5;
+
+    }
+}
+@media only screen and (max-width:350px){
+    .TechStack-Image{
+        width: 80px;
+        height: 80px;
+        object-fit: contain;
+        margin: 15px;
+        cursor: pointer;
+    }
+    .TechStack{
+        height: 90vh;
+    }
+}

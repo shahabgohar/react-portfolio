@@ -1,0 +1,32 @@
+.accomplishments{
+    height: 90vh;
+}
+.Card-size{
+width: 300px;
+
+}
+@media only screen and (max-width:640px){
+    .Card-size{
+        width: 250px;
+
+    }
+}
+.Card-size img{
+    height: 50%;
+    object-fit: contain;
+}
+.animation-card{
+    display: flex;
+    animation: card-animation 1s linear;
+    animation-iteration-count: 1;
+}
+@keyframes card-animation{
+    0%{
+        opacity: 0.7;
+        transform: translateY(40px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
