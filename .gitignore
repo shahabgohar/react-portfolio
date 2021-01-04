@@ -4,7 +4,7 @@
 /node_modules
 /.pnp
 .pnp.js
-public/assets/reviews/
+/public/assets/reviews
 
 # testing
 /coverage
